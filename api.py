@@ -63,6 +63,7 @@ def get_all_users(current_user):
     output = []
 
     for user in users:
+        print(user)
         user_data = {}
         user_data['public_id'] = user.public_id
         user_data['name'] = user.name
